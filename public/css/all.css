@@ -1,0 +1,69 @@
+.text-color{
+    background-color: white;
+    font-size: 12px;
+    text-align: center;
+    border-radius: 0px;
+    padding-right: 5px;
+    box-sizing: border-box;
+    font-weight: bold;
+    margin-left: 10px;
+}
+.text-color:hover{
+    background:-webkit-gradient(linear, 12% 20%, 10% 21%, from(#3E6400), to(#718228));
+    font-size: 16px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-display:inherit;
+    border-radius: 22px;
+    padding-right: 5px;
+    box-sizing: border-box;
+    margin-left: 10px;
+    animation: colors-change 1s infinite;
+}
+@keyframes colors-change {
+    0% { color: rgb(255, 0, 0); }
+    50% { color: rgb(0, 255, 76); }
+    100% { color: rgb(94, 255, 0); }
+  }
+a{
+    text-decoration: none;
+}
+.text-upper{
+    font-language-override: initial;
+}
+.footers{
+    text-align: center;
+}
+.bgindex{
+    background: #718228;
+    font-family: 'Play', sans-serif;
+}
+.textplay{
+    font-family: 'Play', sans-serif;
+}
+.logo-text{
+    animation: color-change 1s infinite;
+}
+
+@keyframes color-change {
+    0% { color: rgb(60, 255, 0); }
+    50% { color: rgb(0, 255, 76); }
+    100% { color: rgb(94, 255, 0); }
+  }
+/*Login System*/
+.tops{
+    margin-top: 100px;
+}
+.imgsdex{
+    background-image: url(../Image/Login.png);
+    width: 100%;
+    background-size: 100%;
+    background-position:left;
+    background-repeat: no-repeat;
+}
+.paragrafcountdown{
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Play', sans-serif;
+}
